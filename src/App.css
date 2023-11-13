@@ -1,0 +1,290 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+#scatolo {
+    position: relative;
+    overflow: hidden;
+}   
+
+
+/* Body */
+body{
+    background-image:url("https://images.unsplash.com/photo-1541574823565-f1d660886187?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxzZWFyY2h8OXx8c2hvcCUyNTIwb25saW5lfGVufDB8fHx8MTY5ODQzODU2OXww&ixlib=rb-4.0.3&q=80&w=2560");
+    background-size:cover;
+    background-position-x:0%;
+    background-position-y:0%;
+}
+   
+
+/* Root */
+#root{
+    position:relative;
+    left:-34em;
+    top:-8em;
+    width:24em;
+}
+
+
+/* Division */
+#root > div{
+    position:relative;
+    top:7em;
+    width:912px;
+    height:590px;
+}
+
+
+/* Paragraph */
+#root > div > p{
+    color:#020202;
+}
+
+
+/* Division */
+#divLogin div{
+    height:26em;
+    position:relative;
+    top:0em;
+    width:32em;
+}
+   
+   
+/* Paragraph */
+#divLogin div p{
+    color:#020202 !important;
+    text-align:center;
+}
+   
+
+/* Heading */
+#divLogin div h3{
+    color:#020202;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+
+/* Heading */
+#root div h2{
+    width:139%;
+}
+
+
+/* Form Division */
+#divLogin div form{
+    padding-left:3em;
+    padding-right:3em;
+    margin-left:7em;
+    margin-right:0em;
+}
+
+
+/* Input */
+#divLogin div input{
+    padding-left:0em;
+    margin-left:0em;
+    left:0px;
+}
+
+
+/* Heading */
+#divLogin div h2{
+    text-align:center;
+    font-weight:400;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+
+/* Div register */
+#divRegister{
+    position:relative;
+    left:37em;
+    top:-285px;
+}
+
+
+/* Paragraph */
+#divRegister p{
+    width:25%;
+    text-align:left;
+    column-count:1;
+    white-space:break-spaces;
+    transform:translatex(0px) translatey(0px);
+    background-color:transparent;
+    color:#000000 !important;
+    position:relative; 
+    left:228px;
+    top:-127px;
+}
+
+
+/**//**//**/
+
+/* Form reg */
+#formReg{
+    left:288px !important;
+    top:51px !important;
+   }
+   
+   /* Div register */
+   #divRegister{
+    top:-285px;
+   }
+   
+   /* Heading */
+   #divRegister h3{
+    position:relative;
+    top:-225px;
+    left:133px;
+   }
+   
+   /* Paragraph */
+   #divRegister p{
+    width:57%;
+    top:104px;
+    text-align:left;
+    left:128px;
+   }
+   
+   /* Input */
+   #formReg input[type=text]{
+    position:relative;
+    top:95px;
+   }
+   
+   /* Button */
+   #formReg .btn-success{
+    position:relative;
+    top:139px;
+   }
+   
+   /* Input */
+   #psw{
+    position:relative;
+    top:117px;
+   }
+
+   #divRegister input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    }
+
+#divRegister button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#divRegister label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Paragraph */
+#divRegister p{
+    top:47px;
+    left:128px;
+    font-size:14px;
+    line-height:1.2em;
+   }
+   
+   /* Button */
+   #formReg button{
+    position:relative;
+    top:110px;
+   }
+   
+   /* Label */
+   #formReg label{
+    position:relative;
+    top:39px;
+   }
+   
+   /* Input */
+   #formReg input[type=text]{
+    top:36px;
+   }
+   
+   /* Input */
+   #psw{
+    top:41px;
+   }
+   /* Form reg */
+#formReg{
+    top:578px !important;
+    left:400px !important;
+   }
+   
+/* Paragraph */
+#formReg p{
+    top:-76px;
+    left:4px;
+   }
+
+   #formReg h3{
+    display: contents;
+   }
+
+   /* Heading */
+#formReg h3{
+    transform:translatex(0px) translatey(0px);
+    display:inline;
+    top:-5px;
+    position:relative;
+    left:110px;
+   }
+   
+   /* Label */
+   #formReg label{
+    top:34px;
+    display:inline;
+   }
+   
+   /* Button */
+   #formReg button{
+    top:153px;
+   }
+   
+/* Label */
+#formReg label{
+    top:0px;
+    position:relative;
+   }
+   
+   /* Input */
+   #formReg input[type=text]{
+    top:5px;
+   }
+
+   /* Body */
+body{
+    background-image:url("https://images.unsplash.com/photo-1682685797661-9e0c87f59c60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDF8MXxzZWFyY2h8OHx8c2t5fGVufDB8fHx8MTY5ODYxNjU4OXww&ixlib=rb-4.0.3&q=80&w=2560");
+    background-size:cover;
+    background-position-x:0%;
+    background-position-y:100%;
+    width:auto !important;
+    height:auto !important;
+   }
+   
+   /* Login new */
+   #loginNew{
+    left:0em;
+    top:8em !important;
+   }
+   
+   

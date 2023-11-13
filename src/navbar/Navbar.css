@@ -1,0 +1,79 @@
+#navbox {
+    position:fixed;
+    width:100vw;
+    top:0px;
+    left:0px;
+    height:66px;
+}
+
+
+/* Input */
+#root div div .navbar #navbarText .navbar-nav .nav-item input[type=search]{
+    width:261% !important;
+}
+
+
+/* Input */
+.navbar-nav .nav-item input[type=search]{
+    padding-bottom:3px;
+    transform:translatex(667px) translatey(0px);
+}
+
+
+/* Image */
+#root div img{
+    width:249px;
+    font-weight:300;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+
+/* Navigation */
+#navbox nav{
+    background-color: white !important;
+}
+   
+
+/* Button */
+.navbar-nav li .btn-danger{
+    position:relative;
+    left:162px;
+}
+
+
+/* Image */
+#navbox .navbar img{
+    height:3em;
+    width:115px;
+    position:relative;
+    left:0em;
+}
+
+
+/* Heading */
+.navbar-nav span h4{
+    position:relative;
+    left:53em;
+    top:0em;
+    font-size:20px;
+    padding-top:7px;
+}
+
+
+/* Input */
+.navbar-nav .nav-item input[type=search]{
+    position:relative;
+    left:-610px;
+    top:0px;
+    text-align:left;
+    width:30em !important;
+}
+
+
+/* Button */
+.navbar-nav li .btn-danger{
+    left:1100px;
+}

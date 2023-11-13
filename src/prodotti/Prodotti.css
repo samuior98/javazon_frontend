@@ -1,0 +1,248 @@
+/* Button */
+#prodotti div .button{
+  width:250px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  padding-left:20%;
+  padding-top:20px;
+  padding-bottom:29px;
+  transform:translatex(-21px) translatey(6px);
+  margin-bottom:0px;
+  margin-top:0px;
+  min-height:123px;
+  height:123px;
+}
+
+
+#prodotti {
+  scrollbar-width:none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position:fixed;
+  display:inline;
+  padding-top:0.5%;
+  padding-left:0.5%;
+  top:115px;
+  left:15%;
+  width:65%;
+  height:calc(100vh - 115px);
+  background-color: whitesmoke;
+  transform:translatex(0px) translatey(0px);
+}
+
+
+.pcard {
+  position:relative;
+  float:left;
+  width:calc(33% - 10px);
+  margin:5px;
+  height:300px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+
+/* Image */
+#prodotti div img{
+  width: auto;
+  padding-bottom:0.5em;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-top:0em;
+  margin-bottom:0em;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+  border-bottom-left-radius:25px;
+  position:relative;
+  left:0px;
+  top:10px;
+  border-top-left-radius:25px;
+  height: auto;
+  max-height:148px;
+}
+
+
+/* Image */
+#root #scatolo #prodotti div .card img{
+  height:auto !important;
+}
+
+
+/* Card */
+#root #scatolo #prodotti div .card{
+  margin-right:4px !important;
+  margin-top:10px !important;
+  margin-bottom:10px !important;
+  transform:translatex(0px) translatey(9px);
+  width:13em !important;
+}
+
+
+/* Card */
+#prodotti div .card{
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  padding-bottom:0px;
+  transform:translatex(26px) translatey(10px);
+  margin-left:25px;
+  height:400px !important;
+  margin-bottom: 0px;
+}
+
+
+/* Card body */
+#prodotti div .card-body{
+  font-size:0.8em;
+  padding-left:1em;
+  padding-right:1em;
+  padding-top:1em;
+  padding-bottom:0px;
+}
+
+
+/*bottone aggiungi al carrello*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*fine bottone aggiungi al carrello*/
+
+
+
+/* Button */
+#root #scatolo #prodotti div .card .list-group-flush .list-group-item div .button{
+  padding-right:20% !important;
+  width:113% !important;
+}
+
+
+/* Division */
+#prodotti .list-group-item div{
+  transform:translatex(3px) translatey(0px);
+  position:relative;
+  left:-4px;
+  top:2px;
+}
+
+
+/* List Item */
+#prodotti div li{
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius:50px;
+}
+
+
+/* List Item */
+#prodotti div .card #prezzo\+categoria li{
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+
+/* Heading */
+#prodotti div h5{
+  font-size:1.3em;
+}
+
+/* Paragraph */
+#prodotti div p{
+  font-size:0.9em;
+ }
+ 
+ /* Prezzo + categoria */
+ #prezzo\+categoria{
+  font-size:0.8em;
+ }
+ 
+ /* Non disp */
+ #nonDisp{
+  font-size:1em;
+ }
+ 
+ /* Disponibilita + bottone */
+ #disponibilita\+bottone{
+  font-size:0.6em;
+ }
+ 
+ /* Button */
+ #prodotti div .button{
+  position:relative;
+  padding-left:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  min-height:0%;
+  height:67.1px;
+  left:1.8px;
+  top:-14.5px;
+  font-size:15px;
+ }
+ 
+ /* Button */
+ #root #scatolo #prodotti div .card #disponibilita\+bottone .list-group-item div .button{
+  padding-right:0px !important;
+  width:13.8em !important;
+}
+ 
+ /* List Item */
+ #prodotti div .card #disponibilita\+bottone li{
+  height:67px;
+ }
+ 
+ /* Division */
+ #prodotti .list-group-item div{
+  width:206px;
+  height:67px;
+  top:auto;
+ }
+ 
+ /* Division */
+ #root #scatolo #prodotti div .card #disponibilita\+bottone .list-group-item div{
+  left:auto !important;
+ }
+ 
+ 

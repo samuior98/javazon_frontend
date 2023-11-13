@@ -1,0 +1,98 @@
+#carrello {
+    scrollbar-width: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position:fixed;
+    top:115px;
+    right:0px;
+    width:20%;
+    padding:1%;
+    height:561px;
+    background-color: greenyellow;  
+}
+
+
+
+#butt {
+    width: 430px;
+    height: 80px;
+    border-style: dashed;
+    border-color: black;
+    position: fixed;
+    top: 850px;
+    bottom: 10px;
+    left: auto;
+}
+
+
+.item {
+    padding: 20px 30px;
+    /*height: 120px;*/
+    display: flex;
+
+    width:82em;
+    height:7em;
+  }
+   
+  .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+
+  /*
+  .image {
+    margin-right: 50px;
+  }
+*/
+
+  .description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+  }
+   
+  .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+  
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+
+    position:relative;
+    left:66px;
+  }
+
+  .total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+
+    position:relative;
+    left:12px;
+  }
+
+  ----------------------------
+
+  /* Item */
+
+ 
+ /* Image */
+ .item div img{
+  width:7em !important;
+  height:5em;
+  top:13.5em;
+  position:fixed;
+  left:1466px;
+ }

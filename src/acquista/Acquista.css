@@ -1,0 +1,12 @@
+#acquista {
+    z-index:2;
+    position:fixed;
+    bottom:0;
+    right:0px;
+    height: 70px;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: sandybrown;
+}
